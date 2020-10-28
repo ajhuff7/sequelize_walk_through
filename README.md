@@ -1,3 +1,4 @@
+
 # Sequelize Walk Through
 
 This deployed site initializes an email username and password login point but the real function of this walk through is to show the "flow of traffic" for this process utilizing Sequelize ORM.
@@ -40,7 +41,11 @@ The below features are a description of each file in the application.
 
 - passport.js requires LocalStrategy and passport node modules to login with a password. It also requires the database to authenticate if user login input is valid.
 
+  ![pass](Develop/public/assets/pass.PNG)
+
 - index.js returns stored login and password from the database, builds a model for each file and exports the db files to other files.
+
+  ![index](Develop/public/assets/index.PNG)
 
 - user.js creates the user model, encrpys the password, and validates user from login page.
 
@@ -61,6 +66,7 @@ The below features are a description of each file in the application.
 * [See Live Site](https://ajhuff7.github.io/sequelize_walk_through/)
 
   ![seq2](Develop/public/assets/seq2.PNG)
+
 
 ---
 
